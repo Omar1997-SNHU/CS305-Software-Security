@@ -10,6 +10,7 @@ mitigation techniques in place and preparing and interpreting vulnerability anal
 testing until all vulnerabilities had been removed.
 
 **Software Security Process and Results**
+
 One of this task's strengths was using the OWASP Dependency-Check tool to determine and remedy accurately the client's software 
 security vulnerabilities. Working through the report methodically, I corrected the security vulnerabilities in code to ensure the
 codebase and dependencies of the application followed a secure development practice. Secure coding-related activities ensure that
@@ -17,6 +18,7 @@ the business and the customers are not affected by security breaches, loss of mo
 security helps ensure business sustainability by blocking attacks and earning customer and authorities' trust.
 
 **Challenges and Key Learnings**
+
 The most difficult aspect of vulnerability scanning was making sense of warnings about dependencies as well as threats versus false
 positives. As it enhanced my skill in assessing vulnerability severity, relevance, and exploitability, this was also one of the 
 learning experiences that was most useful. By updating insecure dependencies, using TLS for secure communication, and checking inputs
@@ -26,6 +28,7 @@ code review.
 
 
 **Additional Layers of Security and Future Vulnerability Scanning**
+
 I also improved the security of Artemis Financial with TLS encryption protecting data in transit, replacing and updating vulnerable
 dependencies detected by the OWASP Dependency-Check tool, and restricting suppression rules to confirmed false positives in keeping
 code intact. Doing so ensured the underlying libraries and communication channels of the application were guaranteed to meet today's
@@ -35,18 +38,21 @@ me to rank various mitigation methods such as patch on time, update dependencies
 and maintaining a strong security posture long term.
 
 **Verification of Functionality and Secure Code**
+
 After every change, I executed the application to make sure all important features continued to behave as expected and to ensure
 that the code was secured. After refactoring, I ran Dependency Check to make sure new vulnerabilities were not introduced into the
 application. In this project every fix has greatly improved the application without compromising its function due to this iterative
 approach.
 
 **Resources and Tools for Future Application**
+
 The OWASP Dependency-Check Maven plugin, official guidelines for Java and Spring Security, and best practices for TLS set up were 
 the top resources and tools for this project. Similarly, other guidelines for secure coding were secured, in particular, those of
 dependency management and input validation. The application of these measures raises the security of future development similar to
 when security is a priority instead of an afterthought.
 
 **Portfolio Value**
+
 This project demonstrates, in tangible terms, to future employers that I can perform well under time-pressured deadlines. It showcases
 my commitment to secure coding standards and ability to compile results into a usable business report. This project also conveys my
 technical ability to recognize security weaknesses, manage them in advance and provide a strong response which is appropriate for the
