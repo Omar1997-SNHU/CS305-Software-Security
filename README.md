@@ -1,5 +1,7 @@
-**Artemis Financial – Secure Software Development READ ME**
+**Artemis Financial – Secure Software Development**
+
 **Project Summary**
+
 An Artemis Financial organization designs proprietary software to handle private customer information and financial transactions.
 The client desired secure programming-web application-without vulnerabilities and with data integrity. They wanted to make sure that,
 by secure coding practices, their software had passed a vulnerability scan with no false positives. I was supposed to spot security
